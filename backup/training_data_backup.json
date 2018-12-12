@@ -1,0 +1,61 @@
+{
+  "language": "en",
+  "pipeline": "tensorflow_embedding",
+  "data": {
+    "rasa_nlu_data": {
+      "common_examples": [
+        {
+          "text": "hey",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "hi",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "tata",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "bye",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "bye,take care",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "hello,How are you ?",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "See you",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "hey",
+          "intent": "greet"
+        },
+        {
+          "text": "hi",
+          "intent": "greet"
+        },
+        {
+          "text": "tata",
+          "intent": "goodbye"
+        },
+        {
+          "text": "bye",
+          "intent": "goodbye"
+        }
+      ]
+    }
+  }
+}
