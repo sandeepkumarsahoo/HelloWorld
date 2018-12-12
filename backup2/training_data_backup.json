@@ -1,0 +1,36 @@
+{
+  "language": "en",
+  "pipeline": "tensorflow_embedding",
+  "data": {
+    "rasa_nlu_data": {
+      "common_examples": [
+        {
+          "text": "What time is it ?",
+          "intent": "asktime",
+          "entities": []
+        },
+        {
+          "text": "Can I know current time ?",
+          "intent": "asktime",
+          "entities": []
+        },
+        {
+          "text": "hey",
+          "intent": "greet"
+        },
+        {
+          "text": "hi",
+          "intent": "greet"
+        },
+        {
+          "text": "tata",
+          "intent": "goodbye"
+        },
+        {
+          "text": "bye",
+          "intent": "goodbye"
+        }
+      ]
+    }
+  }
+}
