@@ -20,6 +20,11 @@
           "entities": []
         },
         {
+          "text": "time ?",
+          "intent": "asktime",
+          "entities": []
+        },
+        {
           "text": "hey",
           "intent": "greet"
         },
